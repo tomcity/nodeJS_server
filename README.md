@@ -9,6 +9,7 @@ ProductionServer  : Port 8080
 
 INSTALL
 -------
+nom install nexe -g<br>
 npm install<br>
 <br>
 <br>
