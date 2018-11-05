@@ -4,9 +4,9 @@ WebServer (nodeJS)
 nodeJS | Express | PUG Template<br>
 
 DevelopmentServer : Port 7000<br>
-ProductionServer  : Port 8080
-
-
+ProductionServer  : Port 8080<br>
+<br>
+<br>
 INSTALL
 -------
 npm install<br>
@@ -17,6 +17,7 @@ USE
 DEVELOPMENT MODE<br>
 (PUG Templating & PM2 Watching)<br>
 npm run dev // npm run dev:stop // npm run dev:delete
+<br>
 <br>
 BUILD<br>
 (Build html from PUG)<br>
