@@ -16,19 +16,15 @@ USE
 ---
 DEVELOPMENT MODE<br>
 (PUG Templating & PM2 Watching)<br>
-<br>
 npm run dev // npm run dev:stop // npm run dev:delete
-<br>
 <br>
 BUILD<br>
 (Build html from PUG)<br>
-<br>
 npm run build
 <br>
 <br>
 PRODUCTION MODE<br>
 (server.js -> serves index.html in ./dist)<br>
-<br>
 npm start
 <br>
 <br>
