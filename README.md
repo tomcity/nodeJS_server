@@ -9,32 +9,30 @@ ProductionServer  : Port 8080
 
 INSTALL
 -------
-npm install
-
-
+npm install<br>
+<br>
+<br>
 USE
 ---
-DEVELOPMENT MODE (server_dev.js -> PUG Templating & PM2 Watching)
-
+DEVELOPMENT MODE<br>
+(PUG Templating & PM2 Watching)<br>
+<br>
 npm run dev // npm run dev:stop // npm run dev:delete
 <br>
 <br>
-
-
-BUILD (Build html from PUG)
-
+BUILD<br>
+(Build html from PUG)<br>
+<br>
 npm run build
-
-
-
-PRODUCTION MODE (server.js -> serves index.html in ./dist)
-
+<br>
+<br>
+PRODUCTION MODE<br>
+(server.js -> serves index.html in ./dist)<br>
+<br>
 npm start
-
-
-
-STANDALONE VERSION FOR OSX (nexe)
-
-npm run build:osx  
-
+<br>
+<br>
+STANDALONE VERSION FOR OSX<br>
+(nexe)<br>
+npm run build:osx<br>
 ./SERVER_OSX
