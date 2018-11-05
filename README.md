@@ -1,9 +1,9 @@
 WebServer (nodeJS)
+------------------
 
-nodeJS | Express | PUG Template 
+nodeJS | Express | PUG Template<br>
 
-DevelopmentServer : Port 7000
-
+DevelopmentServer : Port 7000<br>
 ProductionServer  : Port 8080
 
 
@@ -17,7 +17,8 @@ USE
 DEVELOPMENT MODE (server_dev.js -> PUG Templating & PM2 Watching)
 
 npm run dev // npm run dev:stop // npm run dev:delete
-
+<br>
+<br>
 
 
 BUILD (Build html from PUG)
