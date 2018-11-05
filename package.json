@@ -11,10 +11,8 @@
     "dev:delete": "pm2 delete NODEJS-App",
     "dev:restart": "pm2 restart NODEJS-App",
     "build": "pug ./src/index.pug -o ./dist",
-    "build:osx": "npm run build && nexe server.js -o SERVER_OSX -t mac-x64-8.9.4 && npm run osx",
-    "osx": "./SERVER_OSX",
+    "build:osx": "npm run build && nexe server.js -o SERVER_OSX -t mac-x64-8.9.4",
     "start": "node server.js",
-    "prod": "npm run build && npm run start",
     "delete": "pm2 delete all",
     "kill": "pm2 kill"
   },
