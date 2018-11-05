@@ -14,19 +14,19 @@ npm install
 
 USE
 ---
-1. DEVELOPMENT MODE (server_dev.js -> PUG Templating & PM2 Watching)
+DEVELOPMENT MODE (server_dev.js -> PUG Templating & PM2 Watching)
 
 npm run dev // npm run dev:stop // npm run dev:delete
 
-2. BUILD (Build html from PUG)
+BUILD (Build html from PUG)
 
 npm run build
 
-3. PRODUCTION MODE (server.js -> serves index.html in ./dist)
+PRODUCTION MODE (server.js -> serves index.html in ./dist)
 
 npm start
 
-4. STANDALONE VERSION FOR OSX (nexe)
+STANDALONE VERSION FOR OSX (nexe)
 
 npm run build:osx  
 
