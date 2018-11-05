@@ -1,0 +1,8 @@
+apps:
+  - script : server_dev.js
+    name   : NODEJS-App
+    watch  : true
+    env    :
+      NODE_ENV: development
+    env_production:
+      NODE_ENV: production

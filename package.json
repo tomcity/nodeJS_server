@@ -1,0 +1,30 @@
+{
+  "name": "nodeServer",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pm2 start dev.yml",
+    "dev:list": "pm2 list",
+    "dev:info": "pm2 info NODEJS-App",
+    "dev:stop": "pm2 stop NODEJS-App",
+    "dev:delete": "pm2 delete NODEJS-App",
+    "dev:restart": "pm2 restart NODEJS-App",
+    "build": "pug ./src/index.pug -o ./dist",
+    "build:osx": "npm run build && nexe server.js -o SERVER_OSX -t mac-x64-8.9.4 && npm run osx",
+    "osx": "./SERVER_OSX",
+    "start": "node server.js",
+    "prod": "npm run build && npm run start",
+    "delete": "pm2 delete all",
+    "kill": "pm2 kill"
+  },
+  "keywords": [],
+  "author": "Tom Sidji",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "node-emoji": "^1.8.1",
+    "pm2": "^3.2.2",
+    "pug": "^2.0.3"
+  }
+}
